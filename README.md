@@ -62,7 +62,7 @@ class Seller(OdooLocust.OdooLocust):
     max_wait = 1000
     weight = 3
     
-    task = [ SellerTaskSet ]
+    tasks = [ SellerTaskSet ]
 ```
 
 and you finally run your locust tests the usual way:
