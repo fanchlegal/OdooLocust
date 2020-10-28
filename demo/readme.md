@@ -1,1 +1,1 @@
-locust -f profile Seller
+locust -f profile.py Seller
